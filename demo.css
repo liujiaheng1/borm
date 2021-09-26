@@ -1,0 +1,820 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+  font-size: 12px;
+  font-family: Arial;
+}
+
+.clear {
+  clear: both;
+}
+
+ul li {
+  list-style: none;
+}
+
+/* 头部导航栏 */
+.both {
+  width: 1550px;
+  height: 30px;
+  border-bottom: 1px solid #ebebeb;
+  margin: 0 auto;
+}
+
+.both .both_right {
+  float: right;
+}
+
+.both .both_right ul:nth-child(1) {
+  margin-top: 6px;
+  overflow: hidden;
+  float: left;
+}
+
+.both .both_right ul:nth-child(1) li {
+  float: left;
+  margin-left: 22px;
+}
+
+.both .both_right ul:nth-child(1) li a {
+  color: #333;
+  font-weight: bold;
+}
+
+.both .both_right ul:nth-child(1) li .color_ {
+  color: #666666;
+}
+
+.both .both_right ul:nth-child(2) {
+  margin-top: 6px;
+  overflow: hidden;
+  float: left;
+}
+
+.both .both_right ul:nth-child(2) li {
+  float: left;
+  margin-left: 22px;
+}
+
+.both .both_right ul:nth-child(2) li a {
+  color: black;
+}
+
+.both .both_right .r {
+  margin-right: 27px;
+}
+
+.both .both_right .r span:nth-child(1) {
+  width: 16px;
+  height: 16px;
+  background: url(./img/jlt-1.png);
+  float: left;
+  margin-top: 1px;
+  margin-right: 5px;
+}
+
+.both .both_right .r span:nth-child(3) {
+  width: 16px;
+  height: 16px;
+  float: right;
+  background: url(./img/2.png) no-repeat 3px 6px;
+}
+
+.color {
+  color: #ccc;
+  height: 10px;
+  border-left: 1px solid #ccc;
+  margin-left: 20px;
+  margin-right: 20px;
+  float: left;
+  margin-top: 5px;
+}
+
+/* 顶部搜索框部分 */
+.all {
+  width: 1550px;
+  height: 90px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.all .all_login {
+  width: 135px;
+  height: 45px;
+  background: url(./img/3.png);
+  background-size: 135px;
+  margin-left: 309px;
+  float: left;
+}
+
+.all .all_text {
+  width: 570px;
+  height: 40px;
+  border: 1px solid #b8b8b8;
+  float: left;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.all .all_go {
+  width: 100px;
+  height: 40px;
+  border: 1px solid #b8b8b8;
+  border-left: none;
+  float: left;
+  margin-top: 10px;
+  text-align: center;
+  background-color: #3385ff;
+}
+
+.all .all_go span {
+  line-height: 40px;
+  color: white;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.all .all_s {
+  width: 100px;
+  height: 40px;
+  border: 1px solid #3385ff;
+  float: left;
+  margin-left: 10px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.all .all_s span {
+  color: #3385ff;
+  line-height: 40px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* 轮播图部分 */
+.lbt {
+  width: 1008px;
+  height: 215px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.lbt .lbt_left {
+  width: 690px;
+  height: 180px;
+  float: left;
+  background: url(./img/4.png);
+}
+
+.lbt .lbt_right {
+  width: 313px;
+  height: 180px;
+  background: url(./img/5.png);
+  float: left;
+  margin-left: 5px;
+  position: relative;
+}
+
+.lbt .lbt_right ul {
+  position: absolute;
+  top: 70px;
+  left: 47px;
+}
+
+.lbt .lbt_right ul li {
+  float: left;
+  width: 20px;
+  height: 28px;
+  border: 1px solid;
+  font-size: 25px;
+  line-height: 28px;
+  text-align: center;
+  margin-left: 5px;
+  background-color: white;
+  border-radius: 3px;
+  color: #4aaaee;
+}
+
+.lbt .lbt_right .lbt_btn {
+  width: 209px;
+  height: 39px;
+  background: url(./img/5.png) 0px 86px;
+  position: absolute;
+  bottom: 19px;
+  left: 53px;
+}
+
+.lbt .ma {
+  width: 150px;
+  height: 30px;
+  float: left;
+  background: url(./img/jlt2.png) 5px -14px;
+  position: absolute;
+  bottom: 0px;
+  left: 418px;
+}
+
+.entir {
+  width: 1008px;
+  border: 1px solid;
+  margin: 0 auto;
+  overflow: hidden;
+  /* 欧冠16强 */
+  /* 贴吧游戏，娱乐中心 */
+}
+
+.entir .entir_left {
+  width: 200px;
+  background-color: #f6f7fb;
+  float: left;
+  padding: 10px;
+}
+
+.entir .entir_left .entir_top1 p:nth-child(1) {
+  padding: 2px;
+  font-weight: bold;
+}
+
+.entir .entir_left .entir_top1 p:nth-child(2) {
+  padding: 2px;
+  margin-left: 8px;
+  margin-top: 5px;
+  color: #b199a5;
+}
+
+.entir .entir_left .entir_top2 {
+  margin-top: 30px;
+  height: 111px;
+  border-bottom: 1px solid #ebe6e6;
+  position: relative;
+}
+
+.entir .entir_left .entir_top2 div:nth-child(1) {
+  width: 140px;
+  border-top: 2px solid #d7d7d7;
+  border-bottom: 1px solid white;
+  position: absolute;
+  top: 7px;
+  right: -2px;
+}
+
+.entir .entir_left .entir_top2 span:nth-child(3) {
+  margin-top: 20px;
+  width: 15px;
+  height: 15px;
+  float: left;
+  background: url(./img/jlt3.png) -344px -118px;
+}
+
+.entir .entir_left .entir_top2 span:nth-child(4) {
+  font-size: 16px;
+  color: #999999;
+  margin-top: 16px;
+  float: left;
+  margin-left: 15px;
+}
+
+.entir .entir_left .entir_top3 ul li {
+  float: left;
+  margin-right: 10px;
+  margin-top: 10px;
+  color: #999999;
+}
+
+.entir .entir_left .entir_top4 {
+  margin-top: 10px;
+  height: 89px;
+  border-bottom: 1px solid #ebe6e6;
+}
+
+.entir .entir_left .entir_top4 span:nth-child(1) {
+  width: 15px;
+  height: 15px;
+  float: left;
+  margin-top: 10px;
+  background: url(./img/jlt3.png) -207px -120px;
+}
+
+.entir .entir_left .entir_top4 span:nth-child(2) {
+  font-size: 16px;
+  color: #999999;
+  margin-top: 10px;
+  float: left;
+  margin-left: 15px;
+}
+
+.entir .entir_left .entir_top4 ul li {
+  float: left;
+  margin-right: 10px;
+  margin-top: 10px;
+  color: #999999;
+}
+
+.entir .entir_right {
+  width: 776px;
+  height: 267px;
+  float: left;
+  margin-left: 10px;
+}
+
+.entir .entir_right .er p:nth-child(1) {
+  font-size: 16px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.entir .entir_right .er .er_l {
+  width: 388px;
+  height: 100px;
+  float: left;
+  margin-top: 10px;
+}
+
+.entir .entir_right .er .er_l img {
+  float: left;
+  border-radius: 5px;
+}
+
+.entir .entir_right .er .er_l span:nth-child(2) {
+  width: 38px;
+  height: 18px;
+  float: left;
+  margin-left: 5px;
+  background: url(./img/jlt4.png) 218px 0px;
+}
+
+.entir .entir_right .er .er_l span:nth-child(3) {
+  float: left;
+  font-size: 16px;
+  color: #005196;
+  margin-left: 10px;
+}
+
+.entir .entir_right .er .er_l p {
+  margin-left: 5px;
+  float: left;
+  color: #666666;
+  margin-top: 10px;
+}
+
+.entir .entir_right .er .er_l .span {
+  margin-top: 25px;
+}
+
+.entir .entir_right .er .er_l .span span:nth-child(1) {
+  margin-left: 10px;
+  width: 16px;
+  height: 16px;
+  float: left;
+  background: url(./img/jlt4.png);
+}
+
+.entir .entir_right .er .er_l .span span:nth-child(2) {
+  color: #999999;
+  font-size: 14px;
+  background: url(./img/jlt1.png) 1000px 1000px;
+}
+
+.entir .entir_right .er .er_l .span span:nth-child(3) {
+  float: left;
+  width: 17px;
+  height: 17px;
+  margin-left: 30px;
+  background: url(./img/jlt4.png) 0px -35px;
+}
+
+.entir .entir_right .er .er_l .span span:nth-child(4) {
+  font-size: 14px;
+  margin-left: 5px;
+  color: #999999;
+}
+
+.entir .er_buttom {
+  float: left;
+  margin-left: 16px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.entir .er_buttom p:nth-child(1) {
+  font-size: 16px;
+  margin-left: -15px;
+  margin-bottom: 10px;
+}
+
+.entir .er_buttom div {
+  width: 177px;
+  height: 72px;
+  background-color: #fcfcfc;
+  border: 1px solid #ccc;
+  margin-left: 5px;
+  float: left;
+}
+
+.entir .er_buttom div img {
+  width: 65px;
+  height: 65px;
+  float: left;
+  margin-top: 3px;
+}
+
+.entir .er_buttom div .er_d_r {
+  width: 100px;
+  border: none;
+}
+
+.entir .er_buttom div .er_d_r p {
+  font-size: 16px;
+  margin: 0px;
+  float: left;
+}
+
+.entir .er_buttom div .er_d_r span:nth-child(2) {
+  width: 21px;
+  height: 21px;
+  float: left;
+  background-color: blueviolet;
+  background: url(./img/jlt4.png) 0px 4px;
+}
+
+.entir .er_buttom div .er_d_r span:nth-child(3) {
+  float: left;
+  margin-top: 5px;
+  font-size: 14px;
+  color: #999999;
+  font-weight: bold;
+}
+
+.entir .er_buttom div .er_d_r span:nth-child(8) {
+  width: 21px;
+  height: 21px;
+  float: left;
+  background: url(./img/jlt4.png) 17px -63px;
+}
+
+.entir .er_buttom div .er_d_r span:nth-child(9) {
+  float: left;
+  margin-top: -5px;
+  font-size: 14px;
+  color: #999999;
+}
+
+.entir .er_buttom .er_left {
+  display: inline-block;
+  width: 25px;
+  height: 40px;
+  background: url(./img/jlt4.png) -11px -99px;
+  position: absolute;
+  top: 40px;
+  left: -23px;
+}
+
+.entir .er_buttom .er_right {
+  display: inline-block;
+  width: 25px;
+  height: 40px;
+  background: url(./img/jlt4.png) -48px -99px;
+  position: absolute;
+  top: 40px;
+  right: -23px;
+}
+
+.entir .en {
+  width: 776px;
+  height: 200px;
+  margin-top: 10px;
+  float: left;
+  margin-left: 10px;
+  /* 右侧侧边栏 */
+}
+
+.entir .en .en_left {
+  width: 260px;
+  height: 200px;
+  border: 1px solid #d3d2d2;
+  border-right: none;
+  float: left;
+  padding: 3px;
+}
+
+.entir .en .en_left .en_text {
+  font-size: 18px;
+  font-weight: bolder;
+  color: #444444;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.entir .en .en_left img {
+  float: left;
+}
+
+.entir .en .en_left .en_left1 {
+  float: left;
+  margin-left: 10px;
+}
+
+.entir .en .en_left .en_left1 p {
+  padding: 5px;
+  width: 50px;
+  height: 13px;
+  background-color: #f8f8f8;
+  margin-bottom: 5px;
+  line-height: 13px;
+  text-align: center;
+  border: 1px solid #d3d2d2;
+  border-radius: 3px;
+  color: #666666;
+}
+
+.entir .en .en_o {
+  border-left: none;
+  border-right: 1px solid #d3d2d2;
+}
+
+.entir .en .en_right {
+  width: 232px;
+  height: 300px;
+  float: left;
+  margin-left: 10px;
+}
+
+.entir .en .en_right .en_r_t {
+  width: 232px;
+  height: 30px;
+  border: 1px solid #e7e7e7;
+  background-color: #fbfbfb;
+}
+
+.entir .en .en_right .en_r_t p {
+  line-height: 30px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.entir .en .en_right .en_r_tr {
+  width: 115px;
+  height: 60px;
+  float: left;
+  margin-left: 10px;
+}
+
+.entir .en .en_right .en_r_tr p:nth-child(1) {
+  margin-top: 30px;
+}
+
+.entir .en .en_right .en_r_tr p:nth-child(2) {
+  margin-top: 10px;
+}
+
+.entir .en .en_right .en_r_td img {
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.entir .en .en_right .en_p .en_p_t {
+  width: 234px;
+  height: 38px;
+  background-color: #fbfbfb;
+  border: 1px solid #e7e7e7;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.entir .en .en_right .en_p .en_p_t span:nth-child(1) {
+  font-size: 18px;
+  line-height: 38px;
+  margin-left: 10px;
+}
+
+.entir .en .en_right .en_p .en_p_t a:nth-child(2) {
+  margin-left: 65px;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.entir .en .en_right .en_p ul {
+  float: left;
+}
+
+.entir .en .en_right .en_p ul li a {
+  text-decoration: none;
+}
+
+.entir .en .en_right .en_p ul:nth-child(2) {
+  margin-top: 6px;
+}
+
+.entir .en .en_right .en_p ul:nth-child(2) li {
+  margin-bottom: 24px;
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.entir .en .en_right .en_p ul:nth-child(2) li:nth-child(1) {
+  width: 15px;
+  height: 18px;
+  background-color: #ff7f42;
+  text-align: center;
+  line-height: 18px;
+  color: white;
+}
+
+.entir .en .en_right .en_p ul:nth-child(2) li:nth-child(2) {
+  width: 15px;
+  height: 18px;
+  background-color: #ff7f42;
+  text-align: center;
+  line-height: 18px;
+  color: white;
+}
+
+.entir .en .en_right .en_p ul:nth-child(2) li:nth-child(3) {
+  width: 15px;
+  height: 18px;
+  background-color: #ff7f42;
+  text-align: center;
+  line-height: 18px;
+  color: white;
+}
+
+.entir .en .en_right .en_p ul:nth-child(3) {
+  margin-top: 3px;
+}
+
+.entir .en .en_right .en_p ul:nth-child(3) li {
+  margin-bottom: 22px;
+  margin-left: 8px;
+}
+
+.entir .en .en_right .en_p ul:nth-child(3) li a {
+  color: black;
+  font-size: 14px;
+}
+
+.entir .en .en_right .en_p ul:nth-child(4) {
+  margin-top: 3px;
+  margin-right: 5px;
+  float: right;
+}
+
+.entir .en .en_right .en_p ul:nth-child(4) li {
+  margin-bottom: 28px;
+}
+
+.entir .center {
+  width: 534px;
+  height: 500px;
+  float: left;
+  margin-left: 10px;
+}
+
+.entir .center .center_top {
+  width: 534px;
+  height: 30px;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  position: relative;
+  margin-top: 10px;
+}
+
+.entir .center .center_top .h {
+  width: 64px;
+  height: 2px;
+  float: left;
+  border-top: 2px solid #0090d7;
+  position: absolute;
+  bottom: -3px;
+  left: 20px;
+}
+
+.entir .center .center_top a {
+  font-size: 16px;
+  text-decoration: none;
+  margin-left: 20px;
+  line-height: 30px;
+  color: #0090d7;
+}
+
+.entir .center .center_t {
+  width: 40px;
+  height: 17px;
+  background-color: #cc6ee3;
+  text-align: center;
+  float: left;
+  margin-top: 10px;
+}
+
+.entir .center .center_t span:nth-child(1) {
+  color: white;
+  line-height: 17px;
+}
+
+.entir .center .center_car {
+  font-size: 16px;
+  float: left;
+  margin-top: 8px;
+  margin-left: 5px;
+}
+
+.entir .center .center_text p {
+  font-size: 16px;
+  color: #005097;
+  float: left;
+}
+
+.entir .center .center_text .center_color {
+  width: 30px;
+  height: 20px;
+  background-color: white;
+  float: left;
+  margin-top: -4px;
+  margin-left: 3px;
+}
+
+.entir .center .center_text .center_color span {
+  line-height: 20px;
+  color: red;
+}
+
+.entir .center .center_j {
+  margin-top: 5px;
+}
+
+.entir .center .center_j p {
+  color: #666666;
+}
+
+.entir .center .center_j img:nth-child(2) {
+  margin-left: 30px;
+}
+
+.entir .center .center_j img {
+  margin-right: 10px;
+}
+
+.entir .center .center_j .center_z {
+  margin-top: 5px;
+}
+
+.entir .center .center_j .center_z span:nth-child(1) {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(./img/jlt3.png) -194px -66px;
+  margin-left: 10px;
+}
+
+.entir .center .center_j .center_z span:nth-child(3) {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(./img/jlt5.png) -9px -5px;
+}
+
+.one {
+  background: url(./img/jlt3.png) -465px -118px !important;
+}
+
+.two {
+  background: url(./img/jlt3.png) -497px -118px !important;
+}
+
+.three {
+  background: url(./img/jlt3.png) -295px -118px !important;
+}
+
+.four {
+  background: url(./img/jlt3.png) -14px -118px !important;
+}
+
+.five {
+  background: url(./img/jlt3.png) -158px -118px !important;
+}
+
+.six {
+  background: url(./img/jlt3.png) -525px -118px !important;
+}
+
+.sever {
+  background: url(./img/jlt3.png) -128px -118px !important;
+}
+
+.eight {
+  background: url(./img/jlt3.png) -46px -119px !important;
+}
+
+.nine {
+  background: url(./img/jlt3.png) -270px -119px !important;
+}
+
+.ten {
+  background: url(./img/jlt3.png) -182px -119px !important;
+}
+
+.ten_one {
+  background: url(./img/jlt3.png) -368px -119px !important;
+}
